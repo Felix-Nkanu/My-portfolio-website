@@ -1738,6 +1738,32 @@ toggle.addEventListener("click", function(){
         toggle.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
 
     }
+    toggle.addEventListener("click", function(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+
+        localStorage.setItem("theme","dark");
+        toggle.innerHTML = '<i class="bi bi-sun-fill"></i>';
+
+    }else{
+
+        localStorage.setItem("theme","light");
+        toggle.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
+
+    }
+
+    // Close the mobile navbar after toggling theme
+    const navbarCollapse = document.getElementById("navbarNav");
+    const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse)
+        || new bootstrap.Collapse(navbarCollapse, {
+            toggle: false
+        });
+
+    bsCollapse.hide();
+
+});
 
 });
 
