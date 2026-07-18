@@ -805,11 +805,16 @@ margin-top:15px;
 
 .about-text{
 
-    color:#CBD5E1;
+    color: #334155;
 
     line-height:1.9;
 
     margin-bottom:20px;
+
+}
+body.dark .about-text{
+
+    color:#CBD5E1;
 
 }
 
