@@ -2962,7 +2962,7 @@ body.dark .navbar-nav .nav-link.active{
 
 }
 
-/* .loader-circle{
+.loader-circle{
 
     position:absolute;
 
@@ -2978,7 +2978,7 @@ body.dark .navbar-nav .nav-link.active{
 
     animation:spin 1s linear infinite;
 
-} */
+}
 
 /* .loader-text{
 
@@ -2992,7 +2992,7 @@ body.dark .navbar-nav .nav-link.active{
 
 } */
 
-/* @keyframes spin{
+ @keyframes spin{
 
     100%{
 
@@ -3000,7 +3000,7 @@ body.dark .navbar-nav .nav-link.active{
 
     }
 
-} */
+} 
 
 /* Hide Preloader */
 .loader{
@@ -3010,10 +3010,11 @@ body.dark .navbar-nav .nav-link.active{
 }
 
 .loader-logo{
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
-    animation: logoPulse 1.5s ease-in-out infinite;
+    z-index: 2;
 }
 
 @keyframes logoPulse{
