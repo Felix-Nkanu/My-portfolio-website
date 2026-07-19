@@ -3010,9 +3010,11 @@ body.dark .navbar-nav .nav-link.active{
 }
 
 .loader-logo{
-    position: relative;
-    width: 60px;
-    height: 60px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
     object-fit: contain;
     z-index: 2;
 }
