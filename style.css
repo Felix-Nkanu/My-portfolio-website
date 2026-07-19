@@ -2980,7 +2980,7 @@ body.dark .navbar-nav .nav-link.active{
 
 }
 
-/* .loader-text{
+.loader-text{
 
     color:#10B981;
 
@@ -2990,9 +2990,9 @@ body.dark .navbar-nav .nav-link.active{
 
     letter-spacing:2px;
 
-} */
+}
 
- @keyframes spin{
+@keyframes spin{
 
     100%{
 
@@ -3000,42 +3000,9 @@ body.dark .navbar-nav .nav-link.active{
 
     }
 
-} 
+}
 
 /* Hide Preloader */
-.loader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loader-logo{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    object-fit: contain;
-    z-index: 2;
-}
-/* Mobile */
-@media (max-width: 768px){
-
-    .loader-logo{
-        width: 35px;
-        height: 35px;
-    }
-
-}
-
-@keyframes logoPulse{
-    0%,100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-8px);
-    }
-}
 
 #preloader.hide{
 
@@ -3053,11 +3020,11 @@ body.dark #preloader{
 
 }
 
-/* body.dark .loader-text{
+body.dark .loader-text{
 
     color:#10B981;
 
-} */
+}
 body.dark .project-tags span{
 
     background:#0F172A;
@@ -3096,59 +3063,4 @@ body.dark .navbar-toggler-icon{
 
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(248,250,252,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2.8' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
-}
-/*=========================
-    PERSONAL LOGO
-=========================*/
-
-.personal-logo{
-    text-decoration:none;
-    gap:12px;
-}
-
-.logo-img{
-    width:55px;
-    height:55px;
-    border-radius:12px;
-    transition:.3s;
-}
-
-.logo-img:hover{
-    transform:rotate(-5deg) scale(1.08);
-}
-
-.logo-text h5{
-    margin:0;
-    font-size:1.2rem;
-    font-weight:700;
-    color:#0F172A;
-    font-family:Georgia, serif;
-}
-
-.logo-text small{
-    display:block;
-    color:#10B981;
-    font-size:.75rem;
-    letter-spacing:1px;
-    font-weight:600;
-    text-transform:uppercase;
-}
-body.dark .logo-text h5{
-    color:#FFFFFF;
-}
-
-body.dark .logo-text small{
-    color:#10B981;
-}
-.logo-img{
-    width:45px;
-    height:45px;
-}
-
-.logo-text h5{
-    font-size:1rem;
-}
-
-.logo-text small{
-    font-size:.65rem;
 }
