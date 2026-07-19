@@ -3141,3 +3141,12 @@ body.dark .logo-text small{
 .logo-text small{
     font-size:.65rem;
 }
+/* Mobile */
+@media (max-width: 768px){
+
+    .loader-logo{
+        width: 40px;
+        height: 40px;
+    }
+
+}
