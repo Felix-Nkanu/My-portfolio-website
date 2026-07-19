@@ -3016,6 +3016,15 @@ body.dark .navbar-nav .nav-link.active{
     object-fit: contain;
     z-index: 2;
 }
+/* Mobile */
+@media (max-width: 768px){
+
+    .loader-logo{
+        width: 35px;
+        height: 35px;
+    }
+
+}
 
 @keyframes logoPulse{
     0%,100%{
@@ -3140,13 +3149,4 @@ body.dark .logo-text small{
 
 .logo-text small{
     font-size:.65rem;
-}
-/* Mobile */
-@media (max-width: 768px){
-
-    .loader-logo{
-        width: 40px;
-        height: 40px;
-    }
-
 }
